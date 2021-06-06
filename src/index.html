@@ -51,7 +51,7 @@
                   <a class="nav__link" href="#gallery">gallery</a>
                 </li>
                 <li class="nav__item">
-                  <a class="nav__link" href="#consultation">consultation</a>
+                  <a class="nav__link" href="#contacts">consultation</a>
                 </li>
                 <li class="nav__item">
                   <a class="nav__link" href="#testimonials">testimonials</a>
@@ -276,30 +276,47 @@
         </h2>
         <div class="contacts__wrapper">
           <div class="connection contacts__connection">
-            <h3 class="phone-text connection__phone-text">Phone</h3>
-            <a
-              href="+123455555555"
-              class="phone-number connection__phone-number"
-            >
-              +1 234 555-55-55
-            </a>
-            <h3 class="email-text connection__email-text">Email</h3>
-            <a
-              href="mailto:hello@miami.com"
-              class="email connection__email"
-            >
-              hello@miami.com
-            </a>
+            <div class="connection__wrapper">
+              <div class="connection__phone-wrapper">
+                <h3 class="phone-text connection__phone-text">Phone</h3>
+                <a
+                  href="+123455555555"
+                  class="phone-number connection__phone-number"
+                >
+                  +1 234 555-55-55
+                </a>
+              </div>
+            </div>
+            <div class="connection__wrapper">
+              <div class="connection__email-wrapper">
+                <h3 class="email-text connection__email-text">Email</h3>
+                <a
+                  href="mailto:hello@miami.com"
+                  class="email connection__email"
+                >
+                  hello@miami.com
+                </a>
+              </div>
+            </div>
           </div>
           <div class="address contacts__address">
-            <h3 class="address-text address__address-text">Address</h3>
-            <h4 class="destination address__destination">
-              400 first ave. n.<br> suite 700<br>Minneapolis, MN<br> 55401
-            </h4>
+            <div class="address__wrapper">
+              <h3 class="address-text address__address-text">Address</h3>
+              <a
+                href="https://goo.gl/maps/VEgw5VJ9sQ3RPYfp7"
+                target="_blank"
+                class="address__links"
+                rel="noopener"
+              >
+                <h4 class="address__destination">
+                  400 first ave. n.<br> suite 700<br>Minneapolis, MN<br> 55401
+                </h4>
+              </a>
+            </div>
           </div>
           <form
             action="#"
-            method="POST"
+            method="GET"
             class="contacts__data"
           >
             <input

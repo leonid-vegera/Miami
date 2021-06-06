@@ -21,4 +21,22 @@
     color: $greyColor;
     text-decoration: none;
   }
+
+  &__phone-wrapper {
+    display: inline-block;
+    &:hover {
+      .connection__phone-number {
+        @include contacts-hover;
+      }
+    }
+  }
+
+  &__email-wrapper {
+    display: inline-block;
+    &:hover {
+      .connection__email {
+        @include contacts-hover;
+      }
+    }
+  }
 }

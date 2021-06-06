@@ -6,12 +6,22 @@
     line-height: 27px;
     color: $lightgreyColor;
   }
+
   &__destination {
     font-size: 16px;
     font-weight: normal;
     line-height: 27px;
     color: $greyColor;
     text-decoration: none;
+  }
+
+  &__wrapper {
+    display: inline-block;
+    &:hover {
+      .address__destination {
+        @include contacts-hover;
+      }
+    }
   }
 }
 
